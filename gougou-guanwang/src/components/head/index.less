@@ -1,31 +1,88 @@
 .head{
-    display: flex;
+    position: relative;
     width: 100%;
+    min-width: 1024px;
     height: 110px;
-    background:rgba(255,255,255,1); 
-    justify-content: center;
-    .head-logo{
-        width:104px;
-        height:82px;
-        margin:14px 0 0 0 ;
-        background-color: red;
-    }
-    .head-nav{
+    background:rgba(255,255,255,1);
+    overflow: hidden;
+    .head-content{
+        position: absolute;
+        top:0;
+        left:20%;
         display: flex;
-        margin:47px 0 0 70px ;
-        width:416px;
-        height:16px;
-        font-size:16px;
-        font-family:Adobe Heiti Std;
-        font-weight:normal;
-        color: #474646;
-        // 
-        line-height:16px;
-        justify-content: space-between;
-        div{
-            :hover{
-                cursor: pointer;
-                color:rgba(45,105,195,1);
+        width:591px;
+        height: 110px;
+        background:rgba(255,255,255,1); 
+        justify-content: center;
+        align-items: center;
+        .head-logo{
+            width:104px;
+            height:82px;
+            background-color: red;
+        }
+        .head-nav{
+            display: flex;
+            // width: 50%;
+            width:416px;
+            height:16px;
+            margin-left: 71px;
+            font-size:16px;
+            font-family:Adobe Heiti Std;
+            font-weight:normal;
+            color: #474646;
+            list-style-type: none;
+            line-height:16px;
+            justify-content: space-between;
+            :nth-child(n){
+                :hover{
+                    cursor: pointer;
+                    color:rgba(45,105,195,1);
+                }
+            }
+        }
+    }
+}
+@media (max-width:1200px){
+    .head{
+        position: relative;
+        width: 100%;
+        height: 73.3333px;
+        background:rgba(255,255,255,1);
+        overflow: hidden;
+        .head-content{
+            position: absolute;
+            top:0;
+            left:20%;
+            display: flex;
+            width:394px;
+            height:73.3333px;
+            background:rgba(255,255,255,1); 
+            justify-content: space-between;
+            align-items: center;
+            .head-logo{
+                width:70px;
+                height:54.6666px;
+                background-color: red;
+            }
+            .head-nav{
+                display: flex;
+                // width: 50%;
+                width:277.333;
+                height:10.6666px;
+                margin-left: 47.3333px;
+                font-size:10.6666px;
+                font-family:Adobe Heiti Std;
+                font-weight:normal;
+                color: #474646;
+                list-style-type: none;
+                line-height:10.6666px;
+                justify-content: space-between;
+                :nth-child(n){
+                    :hover{
+                        cursor: pointer;
+                        color:rgba(45,105,195,1);
+                    }
+                }
             }
         }
     }
