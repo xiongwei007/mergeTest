@@ -1,7 +1,7 @@
 .head{
     position: relative;
     width: 100%;
-    min-width: 1024px;
+    // min-width: 1024px;
     height: 110px;
     background:rgba(255,255,255,1);
     overflow: hidden;
@@ -9,23 +9,31 @@
         position: absolute;
         top:0;
         left:20%;
-        display: flex;
-        width:591px;
+        // display: flex;
+        width:80%;
         height: 110px;
         background:rgba(255,255,255,1); 
-        justify-content: center;
-        align-items: center;
+        // justify-content: center;
+        // align-items: center;
         .head-logo{
+            position: absolute;
+            top: 50%;
+            left:0;
+            margin-top:-41px;
             width:104px;
             height:82px;
             background-color: red;
         }
         .head-nav{
+            position: absolute;
+            top: 50%;
+            left:175px;
+            margin-top:-8px;
             display: flex;
             // width: 50%;
             width:416px;
             height:16px;
-            margin-left: 71px;
+            // margin-left: 71px;
             font-size:16px;
             font-family:Adobe Heiti Std;
             font-weight:normal;
@@ -34,10 +42,7 @@
             line-height:16px;
             justify-content: space-between;
             :nth-child(n){
-                :hover{
-                    cursor: pointer;
-                    color:rgba(45,105,195,1);
-                }
+                cursor: pointer;
             }
         }
     }
@@ -52,24 +57,32 @@
         .head-content{
             position: absolute;
             top:0;
-            left:20%;
-            display: flex;
-            width:394px;
+            left:10%;
+            // display: flex;
+            width:90%;
             height:73.3333px;
             background:rgba(255,255,255,1); 
-            justify-content: space-between;
-            align-items: center;
+            // justify-content: space-between;
+            // align-items: center;
             .head-logo{
+                position: absolute;
+                top: 50%;
+                left:0;
+                margin-top:-30px;
                 width:70px;
-                height:54.6666px;
+                height:60px;
                 background-color: red;
             }
             .head-nav{
+                position: absolute;
+                top: 50%;
+                left:117px;
+                margin-top:-5.5px;
                 display: flex;
                 // width: 50%;
-                width:277.333;
-                height:10.6666px;
-                margin-left: 47.3333px;
+                width:277;
+                height:11px;
+                // margin-left: 47.3333px;
                 font-size:10.6666px;
                 font-family:Adobe Heiti Std;
                 font-weight:normal;
@@ -78,10 +91,7 @@
                 line-height:10.6666px;
                 justify-content: space-between;
                 :nth-child(n){
-                    :hover{
-                        cursor: pointer;
-                        color:rgba(45,105,195,1);
-                    }
+                    cursor: pointer;
                 }
             }
         }

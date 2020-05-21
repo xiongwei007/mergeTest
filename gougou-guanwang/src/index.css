@@ -4,6 +4,6 @@ html, body, :global(#root) {
   padding: 0;
   margin: 0;
 }
-/* body{
-  overflow-x: hidden;
-} */
+body{
+  min-width: 760px;
+}

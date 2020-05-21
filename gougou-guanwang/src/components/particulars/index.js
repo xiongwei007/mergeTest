@@ -9,8 +9,9 @@ class Particulars extends Component{
     }
     render(){
         return (
-            <div className={styles['particulars']}>
+            <div className={styles['particulars']}  id='aboutUs'>
                 <div className={styles['particulars-1']}>
+                    
                     <div className={styles['particulars-1-content']}>
                         <div className={styles['particulars-1-content-main']}>
                             <h1><span>about</span><span> us</span></h1>
@@ -21,10 +22,10 @@ class Particulars extends Component{
                     </div>
                 </div>
                 <div className={styles['particulars-2']}>
-                    
+                     <div className={styles['shade']}></div>
                 </div>
                 <div className={styles['particulars-3']}>
-                <div className={styles['particulars-1-content']}>
+                    <div className={styles['particulars-1-content']}>
                         <div className={styles['particulars-1-content-main']}>
                             <h1>idea</h1>
                             <h2>核心理念</h2>
@@ -33,9 +34,11 @@ class Particulars extends Component{
                         <div className={styles['particulars-1-content-line']}></div>
                     </div>
                 </div>
-                <div className={styles['particulars-4']}></div>
+                <div className={styles['particulars-4']}>
+                     <div className={styles['shade']}></div>
+                </div>
                 <div className={styles['particulars-5']}>
-                <div className={styles['particulars-1-content']}>
+                    <div className={styles['particulars-1-content']}>
                         <div className={styles['particulars-1-content-main']}>
                             <h1>address</h1>
                             <h2>所在地</h2>
@@ -44,7 +47,9 @@ class Particulars extends Component{
                         <div className={styles['particulars-1-content-line-3']}></div>
                     </div>
                 </div>
-                <div className={styles['particulars-6']}></div>
+                <div className={styles['particulars-6']}>
+                    <div className={styles['shade']}></div>
+                </div>
             </div>
         )
     }
