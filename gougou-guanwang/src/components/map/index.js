@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import styles from './index.less';
-class Map extends Component{
-    constructor(props){
+class Map extends Component {
+    constructor(props) {
         super(props);
-        this.state={
+        this.state = {
 
         }
     }
-    render(){
+    render() {
         return (
             <div className={styles['map']} id='map'>
                 <div className={styles['map-map']} id='mapcontainer'></div>

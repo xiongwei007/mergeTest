@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dva Demo</title>
-  <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=a9abbf1e1cdff80959afe1d944fa391f"></script>
+  <title>勾勾官网</title>
+  <script type="text/javascript"
+    src="https://webapi.amap.com/maps?v=1.4.15&key=a9abbf1e1cdff80959afe1d944fa391f"></script>
   <link rel="stylesheet" href="index.css" />
+  <link rel="icon" href="favicon.ico">
 </head>
-<body>
 
+<body>
   <div id="root"></div>
   <script src="index.js"></script>
   <script>
-    (function(){
-      var mapcontainer=document.getElementById('mapcontainer');
-      var map = new AMap.Map(mapcontainer,{
-        center:[106.627158,26.40087]
+    (function () {
+      var mapcontainer = document.getElementById('mapcontainer');
+      var map = new AMap.Map(mapcontainer, {
+        center: [106.627158, 26.40087]
       });
       var marker = new AMap.Marker({
-      position: new AMap.LngLat(106.627158,26.40087),   // 经纬度对象，也可以是经纬度构成的一维数组[116.39, 39.9]
-      title: '贵州数精英教育科技有限责任公司'
+        position: new AMap.LngLat(106.627158, 26.40087),
+        title: '贵州数精英教育科技有限责任公司'
       });
       map.add(marker);
-    
     })();
-    
   </script>
 </body>
+
 </html>

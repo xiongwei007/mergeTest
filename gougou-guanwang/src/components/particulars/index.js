@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import styles from './index.less';
-class Particulars extends Component{
-    constructor(props){
+class Particulars extends Component {
+    constructor(props) {
         super(props);
-        this.state={
+        this.state = {
 
         }
     }
-    render(){
+    render() {
         return (
-            <div className={styles['particulars']}  id='aboutUs'>
+            <div className={styles['particulars']} id='aboutUs'>
                 <div className={styles['particulars-1']}>
-                    
+
                     <div className={styles['particulars-1-content']}>
                         <div className={styles['particulars-1-content-main']}>
                             <h1><span>about</span><span> us</span></h1>
@@ -22,7 +22,8 @@ class Particulars extends Component{
                     </div>
                 </div>
                 <div className={styles['particulars-2']}>
-                     <div className={styles['shade']}></div>
+                    <img src='\src\img\we1.png' alt='we1.png'></img>
+                    <div className={styles['shade']}></div>
                 </div>
                 <div className={styles['particulars-3']}>
                     <div className={styles['particulars-1-content']}>
@@ -35,7 +36,8 @@ class Particulars extends Component{
                     </div>
                 </div>
                 <div className={styles['particulars-4']}>
-                     <div className={styles['shade']}></div>
+                    <img src='\src\img\we2.png' alt='we2.png'></img>
+                    <div className={styles['shade']}></div>
                 </div>
                 <div className={styles['particulars-5']}>
                     <div className={styles['particulars-1-content']}>
@@ -48,6 +50,7 @@ class Particulars extends Component{
                     </div>
                 </div>
                 <div className={styles['particulars-6']}>
+                    <img src='\src\img\we3.png' alt='we3.png'></img>
                     <div className={styles['shade']}></div>
                 </div>
             </div>
